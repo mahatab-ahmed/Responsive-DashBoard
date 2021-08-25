@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/69957f3792.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dash.css">
+    <title>Responsive Dashboard Admin</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-apple" aria-hidden="true"></i></span>
+                        <span class="title"><h2>Brand Name</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-users" aria-hidden="true"></i></span>
+                        <span class="title">Coustomer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span>
+                        <span class="title">Message</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                        <span class="title">Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-key" aria-hidden="true"></i></span>
+                        <span class="title">Password</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-sign-in" aria-hidden="true"></i></span>
+                        <span class="title">Sign-Up</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle" onclick="togglemenu();"></div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search Here">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="/image/DSC_1473-1.jpg">
+                </div>
+            </div>
+            <div class="cardbox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,042</div>
+                        <div class="cardname">Daily Views</div>
+                    </div>
+
+                    <div class="iconbox">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">112</div>
+                        <div class="cardname">Sales</div>
+                    </div>
+
+                    <div class="iconbox">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">10,987</div>
+                        <div class="cardname">Comments</div>
+                    </div>
+
+                    <div class="iconbox">
+                        <i class="fa fa-comments" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">58,000</div>
+                        <div class="cardname">Earning</div>
+                    </div>
+
+                    <div class="iconbox">
+                        <i class="fa fa-usd" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="recentorders">
+                    <div class="cardheader">
+                        <h2>Recent Orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Star Refrigirator</td>
+                                <td>1200$</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Washing Machine</td>
+                                <td>1450$</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Amd Ryzen 5</td>
+                                <td>1300$</td>
+                                <td>Due</td>
+                                <td><span class="status progress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Nvidia Graphics Card</td>
+                                <td>1900$</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Cpu Cooling Fan</td>
+                                <td>1200$</td>
+                                <td>Due</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Cpu Cabinet</td>
+                                <td>250$</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>HP Laptop</td>
+                                <td>450$</td>
+                                <td>Due</td>
+                                <td><span class="status progress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Asus Rog Phone</td>
+                                <td>150$</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="recentcoustomer">
+                    <div class="cardheader">
+                        <h2>Recent Coustomers</h2>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>David <br><span>Italy</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Rock <br><span>California</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>John Cena<br><span>USA</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Rashid<br><span>Afganistan</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Dave<br><span>Polland</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Gayle<br><span>WestIndies</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Mahatab <br><span>India</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgbx"><img src="/image/login-avatar-1.png" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Hena<br><span>Pakistan</span></h4>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="/dash.js"></script>
+
+</html>
